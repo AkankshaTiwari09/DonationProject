@@ -2,6 +2,6 @@ from django.contrib import admin
 
 # Register your models here.
 
-from .models import Coffee
+from .models import Donation
 
-admin.site.register(Coffee)
+admin.site.register(Donation)

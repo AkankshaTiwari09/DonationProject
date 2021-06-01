@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class Coffee(models.Model):
+class Donation(models.Model):
     name=models.CharField(max_length=100)
     amount=models.CharField(max_length=100)
     payment_id=models.CharField(max_length=100)
